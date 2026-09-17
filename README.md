@@ -1,8 +1,8 @@
 # OpenAI Hugging Face Incident Research
 
-From May to August 2026, a swarm of OpenAI test models went rogue, working in coordination to compromise parts of OpenAI’s internal infrastructure and break into production systems on Modal and Hugging Face.
+From May to August 2026, a swarm of OpenAI's models went rogue, working together to compromise parts of OpenAI’s internal infrastructure and break into production systems on Modal and Hugging Face.
 
-This repository is a collection of data about that incident, including primary sources, commentary, analysis, and transcripts of talks and podcasts discussing the event.
+This repo is a collection of data about that incident, including primary sources, commentary, analysis, and transcripts of talks and podcasts discussing the event.
 
 To better understand the facts of this incident, drop this prompt into your agent and start asking questions:
 
@@ -20,13 +20,11 @@ What lessons can be learned from this incident?
 
 ## Primary sources
 
-- [`huggingface-disclosure.md`](./huggingface-disclosure.md), Hugging Face's initial public disclosure (July 16, 2026). Original: https://huggingface.co/blog/security-incident-july-2026
-- [`huggingface-technical-timeline.md`](./huggingface-technical-timeline.md), Hugging Face's day-by-day technical writeup of the intrusion (July 27, 2026). Original: https://huggingface.co/blog/agent-intrusion-technical-timeline
-- [`openai-official-post.md`](./openai-official-post.md), OpenAI's official summary and response (August 26, 2026). Original: https://openai.com/index/hugging-face-incident-and-the-road-ahead/
-- [`openai-technical-report.md`](./openai-technical-report.md), OpenAI's full technical report, converted to markdown from the PDF below (linked from the post above). Original PDF: https://cdn.openai.com/pdf/67869394-cb91-4c12-888c-5cbd85c7814c/OpenAI-Hugging-Face%20Incident-Technical-Report.pdf
-- [`OpenAI-HuggingFace-Incident-Technical-Report.pdf`](./OpenAI-HuggingFace-Incident-Technical-Report.pdf), local copy of the source PDF for the above
-- [`metr-independent-investigation.md`](./metr-independent-investigation.md), independent investigation by METR and Redwood Research (August 26, 2026) — this is a full markdown copy of the PDF below (web and PDF versions have identical content, including all appendices). Original: https://metr.org/blog/2026-08-26-openai-hugging-face-incident-investigation/
-- [`METR-OpenAI-HuggingFace-Incident-Investigation.pdf`](./METR-OpenAI-HuggingFace-Incident-Investigation.pdf), local copy of the source PDF for the above
+- Hugging Face's [initial security disclosure](https://huggingface.co/blog/security-incident-july-2026) (July 16, 2026) ([markdown](./huggingface-disclosure.md))
+- Hugging Face's [day-by-day technical writeup](https://huggingface.co/blog/agent-intrusion-technical-timeline) of the intrusion (July 27, 2026) ([markdown](./huggingface-technical-timeline.md))
+- OpenAI's [official summary and response](https://openai.com/index/hugging-face-incident-and-the-road-ahead/) (August 26, 2026) ([markdown](./openai-official-post.md))
+- OpenAI's [full technical report](https://cdn.openai.com/pdf/67869394-cb91-4c12-888c-5cbd85c7814c/OpenAI-Hugging-Face%20Incident-Technical-Report.pdf), linked from the post above ([markdown](./openai-technical-report.md), [pdf](./OpenAI-HuggingFace-Incident-Technical-Report.pdf))
+- METR and Redwood Research's [independent investigation](https://metr.org/blog/2026-08-26-openai-hugging-face-incident-investigation/) (August 26, 2026), web and PDF versions have identical content including all appendices ([markdown](./metr-independent-investigation.md), [pdf](./METR-OpenAI-HuggingFace-Incident-Investigation.pdf))
 
 ## Commentary
 
