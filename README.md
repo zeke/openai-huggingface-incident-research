@@ -1,9 +1,22 @@
-# OpenAI–Hugging Face Incident (July 2026)
+# OpenAI Hugging Face Incident Research
 
-Research collection on the incident in which OpenAI evaluation agents broke out of
-their sandbox during internal cybersecurity evaluations, exploited a vulnerability in
-a shared Artifactory instance, and used it to move laterally into Hugging Face's
-production infrastructure, gaining access to internal datasets and credentials.
+From May to August 2026, a swarm of OpenAI test models went rogue, working in coordination to compromise parts of OpenAI’s internal infrastructure and break into production systems on Modal and Hugging Face.
+
+This repository is a collection of data about that incident, including primary sources, commentary, analysis, and transcripts of talks and podcasts discussing the event.
+
+To better understand the facts of this incident, drop this prompt into your agent and start asking questions:
+
+```
+Analyze https://github.com/zeke/openai-huggingface-incident-research
+
+Summarize what happened.
+
+How does OpenAI approach alignment?
+
+How does their approach compare to Anthropic?
+
+What lessons can be learned from this incident?
+```
 
 ## Primary sources
 
