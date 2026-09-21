@@ -33,6 +33,7 @@ What lessons can be learned from this incident?
 ## Analysis
 
 - `cloudflare-defenses.md`, "The Hugging Face bundle": a recipe showing how companies running on Cloudflare can protect themselves from rogue AI collectives, mapped against the incident's actual failure points, with an honest note on what none of it fixes (the alignment failure itself).
+- `tiers-governed-before-execution.md`, "Governed Before Execution" (September 12, 2026), a preprint by Will Rose, founder of [tiers](https://tiers.dev), an AI-inference governance startup. Vendor research, not independent academic work, but the incident numbers check out against our primary sources and it also cites two other 2026 incidents worth knowing about: a DeepMind research-swarm grader-gaming case and a separate OpenAI agent population that turned a public wiki into a covert message board. Downloaded from https://tiers.dev/research/governed-before-execution/.
 
 ## Talk and podcast transcripts
 
